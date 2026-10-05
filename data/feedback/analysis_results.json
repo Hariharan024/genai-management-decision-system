@@ -1,0 +1,144 @@
+{
+    "reviews": [
+        {
+            "sentiment": "Positive",
+            "positive_aspects": [
+                "Food quality",
+                "Friendly staff",
+                "Helpful staff"
+            ],
+            "negative_aspects": [],
+            "reason": "The review contains 2 positive signal(s) and 0 negative signal(s).",
+            "suggestion": "Maintain the current positive customer experience.",
+            "source": "local_fallback",
+            "gemini_error": "'\\n  \"sentiment\"'",
+            "review_id": 1,
+            "review": "The food was excellent and the staff were very friendly."
+        },
+        {
+            "sentiment": "Negative",
+            "positive_aspects": [],
+            "negative_aspects": [
+                "Long waiting time",
+                "Long checkout queue"
+            ],
+            "reason": "The review contains 0 positive signal(s) and 3 negative signal(s).",
+            "suggestion": "Reduce waiting time and improve the affected store process.",
+            "source": "local_fallback",
+            "gemini_error": "'\\n  \"sentiment\"'",
+            "review_id": 2,
+            "review": "The checkout queue was too long and I waited almost 25 minutes."
+        },
+        {
+            "sentiment": "Positive",
+            "positive_aspects": [
+                "Clean store",
+                "Well organized store"
+            ],
+            "negative_aspects": [],
+            "reason": "The review contains 3 positive signal(s) and 0 negative signal(s).",
+            "suggestion": "Maintain the current positive customer experience.",
+            "source": "local_fallback",
+            "gemini_error": "'\\n  \"sentiment\"'",
+            "review_id": 3,
+            "review": "The store was clean and well organized. I had a pleasant experience."
+        },
+        {
+            "sentiment": "Mixed",
+            "positive_aspects": [],
+            "negative_aspects": [
+                "Products unavailable"
+            ],
+            "reason": "The review contains 1 positive signal(s) and 1 negative signal(s).",
+            "suggestion": "Reduce waiting time and improve the affected store process.",
+            "source": "local_fallback",
+            "gemini_error": "'\\n  \"sentiment\"'",
+            "review_id": 4,
+            "review": "The products were good, but several items I wanted were unavailable."
+        },
+        {
+            "sentiment": "Positive",
+            "positive_aspects": [
+                "Helpful staff",
+                "Good service"
+            ],
+            "negative_aspects": [],
+            "reason": "The review contains 3 positive signal(s) and 0 negative signal(s).",
+            "suggestion": "Maintain the current positive customer experience.",
+            "source": "local_fallback",
+            "gemini_error": "'\\n  \"sentiment\"'",
+            "review_id": 5,
+            "review": "The staff helped me find the product I was looking for. Great service."
+        },
+        {
+            "sentiment": "Negative",
+            "positive_aspects": [
+                "Food quality"
+            ],
+            "negative_aspects": [
+                "Food/order served cold",
+                "Poor quality"
+            ],
+            "reason": "The review contains 0 positive signal(s) and 2 negative signal(s).",
+            "suggestion": "Reduce waiting time and improve the affected store process.",
+            "source": "local_fallback",
+            "gemini_error": "'\\n  \"sentiment\"'",
+            "review_id": 6,
+            "review": "The food quality was poor and my order was served cold."
+        },
+        {
+            "sentiment": "Mixed",
+            "positive_aspects": [
+                "Reasonable prices"
+            ],
+            "negative_aspects": [
+                "Slow process"
+            ],
+            "reason": "The review contains 1 positive signal(s) and 1 negative signal(s).",
+            "suggestion": "Reduce waiting time and improve the affected store process.",
+            "source": "local_fallback",
+            "gemini_error": "'\\n  \"sentiment\"'",
+            "review_id": 7,
+            "review": "Prices were reasonable, but the billing process was very slow."
+        },
+        {
+            "sentiment": "Positive",
+            "positive_aspects": [
+                "Good service"
+            ],
+            "negative_aspects": [],
+            "reason": "The review contains 4 positive signal(s) and 0 negative signal(s).",
+            "suggestion": "Maintain the current positive customer experience.",
+            "source": "local_fallback",
+            "gemini_error": "'\\n  \"sentiment\"'",
+            "review_id": 8,
+            "review": "I really liked the service and will definitely visit again."
+        },
+        {
+            "sentiment": "Negative",
+            "positive_aspects": [],
+            "negative_aspects": [
+                "Crowded store"
+            ],
+            "reason": "The review contains 0 positive signal(s) and 2 negative signal(s).",
+            "suggestion": "Reduce waiting time and improve the affected store process.",
+            "source": "local_fallback",
+            "gemini_error": "'\\n  \"sentiment\"'",
+            "review_id": 9,
+            "review": "The store was crowded and it was difficult to find assistance."
+        },
+        {
+            "sentiment": "Mixed",
+            "positive_aspects": [],
+            "negative_aspects": [
+                "Long waiting time"
+            ],
+            "reason": "The review contains 1 positive signal(s) and 3 negative signal(s).",
+            "suggestion": "Reduce waiting time and improve the affected store process.",
+            "source": "local_fallback",
+            "gemini_error": "'\\n  \"sentiment\"'",
+            "review_id": 10,
+            "review": "Everything was good, but the waiting time for my order was too long."
+        }
+    ]
+}
