@@ -9,7 +9,16 @@ from app.sentiment import analyze_feedback
 
 load_dotenv()
 app=FastAPI(title="GenAI Management Decision Support System")
-app.add_middleware(CORSMiddleware,allow_origins=["http://localhost:5173","http://127.0.0.1:5173"],allow_credentials=True,allow_methods=["*"],allow_headers=["*"])
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://genai-management-decision-system.onrender.com",
+        "http://localhost:5173",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 FEEDBACK_DIR=Path("data/feedback"); SALES_DIR=Path("data/sales"); IMAGE_DIR=Path("data/images/store")
 for d in [FEEDBACK_DIR,SALES_DIR,IMAGE_DIR]: d.mkdir(parents=True,exist_ok=True)
 app.mount("/images",StaticFiles(directory=str(IMAGE_DIR)),name="store-images")
